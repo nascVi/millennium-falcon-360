@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   background: radial-gradient(#111, #000);
   overflow: hidden;
@@ -41,4 +41,13 @@ button {
   font-size: 16px;
   cursor: pointer;
   border-radius: 5px;
+} */
+
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+canvas {
+  display: block;
 }
