@@ -1,6 +1,8 @@
  import * as THREE from 'https://cdn.skypack.dev/three@0.150.1';
     import { OrbitControls } from 'https://cdn.skypack.dev/three@0.150.1/examples/jsm/controls/OrbitControls';
-    import { GLTFLoader } from 'https://cdn.skypack.dev/three@0.150.1/examples/jsm/loaders/GLTFLoader';const scene = new THREE.Scene();
+    import { GLTFLoader } from 'https://cdn.skypack.dev/three@0.150.1/examples/jsm/loaders/GLTFLoader';
+    const scene = new THREE.Scene();
+    
 scene.background = new THREE.Color(0x000000);
 
 const camera = new THREE.PerspectiveCamera(
